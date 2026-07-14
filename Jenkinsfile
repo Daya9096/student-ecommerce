@@ -160,7 +160,7 @@ docker-compose up -d --force-recreate
 
                 sleep 30
 
-                curl --fail http://localhost:8087/employees
+                curl --fail http://localhost:8087/
 
                 '''
             }
