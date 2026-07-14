@@ -56,8 +56,8 @@ pipeline {
 
                         sh '''
                         mvn sonar:sonar \
-                        -Dsonar.projectKey=employee-management \
-                        -Dsonar.projectName="Employee Management" \
+                        -Dsonar.projectKey=student-ecom \
+                        -Dsonar.projectName="student-ecom" \
                         -Dsonar.token=$SONAR_TOKEN
                         '''
                     }
